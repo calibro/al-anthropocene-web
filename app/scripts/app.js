@@ -26,6 +26,11 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/network', {
+        templateUrl: 'views/network.html',
+        controller: 'NetworkCtrl',
+        controllerAs: 'network'
+      })
       .otherwise({
         redirectTo: '/'
       });
