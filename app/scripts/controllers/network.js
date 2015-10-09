@@ -8,10 +8,6 @@
  * Controller of the anthropoceneWebApp
  */
 angular.module('anthropoceneWebApp')
-  .controller('NetworkCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('NetworkCtrl', function ($scope, networkData) {
+    $scope.netData = networkData;
   });

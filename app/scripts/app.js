@@ -29,7 +29,12 @@ angular
       .when('/network', {
         templateUrl: 'views/network.html',
         controller: 'NetworkCtrl',
-        controllerAs: 'network'
+        controllerAs: 'network',
+        resolve:{
+          networkData: function(apiService){
+            return apiService.getFile('data/test1.json')
+          }
+        }
       })
       .when('/player', {
         templateUrl: 'views/player.html',
