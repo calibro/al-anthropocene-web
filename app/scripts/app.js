@@ -31,6 +31,11 @@ angular
         controller: 'NetworkCtrl',
         controllerAs: 'network'
       })
+      .when('/player', {
+        templateUrl: 'views/player.html',
+        controller: 'PlayerCtrl',
+        controllerAs: 'player'
+      })
       .otherwise({
         redirectTo: '/'
       });
