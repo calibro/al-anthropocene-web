@@ -1,0 +1,1750 @@
+{
+  "edges": [
+    {
+      "source": "central-asia",
+      "target": "middle-east",
+      "id": "107",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "cyberspace",
+      "target": "dr-martin-frick",
+      "id": "4",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "east-africa",
+      "id": "99",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "colonialism",
+      "id": "12",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "international-law",
+      "id": "133",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "aral-lake",
+      "target": "east-africa",
+      "id": "92",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "mali",
+      "target": "south-sudan",
+      "id": "74",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "central-asia",
+      "target": "dr-martin-frick",
+      "id": "103",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "land-crisis",
+      "id": "38",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "dry-lands",
+      "target": "north-africa",
+      "id": "117",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "destabilized-regions",
+      "target": "dr-martin-frick",
+      "id": "51",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "africa",
+      "target": "dr-martin-frick",
+      "id": "9",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 2
+    },
+    {
+      "source": "commodities",
+      "target": "poverty",
+      "id": "36",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "east-africa",
+      "target": "middle-east",
+      "id": "119",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "international-law",
+      "id": "126",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "destabilized-regions",
+      "target": "security",
+      "id": "55",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "africa",
+      "target": "bonn-germany",
+      "id": "7",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 2
+    },
+    {
+      "source": "bonn-germany",
+      "target": "vatican",
+      "id": "128",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "global-warming",
+      "target": "north-africa",
+      "id": "122",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "cultural-identity",
+      "target": "vatican",
+      "id": "132",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "middle-east",
+      "id": "14",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 2
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "middle-east",
+      "id": "19",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 2
+    },
+    {
+      "source": "bonn-germany",
+      "target": "destabilized-regions",
+      "id": "43",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "cultural-identity",
+      "target": "dr-martin-frick",
+      "id": "129",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "global-warming",
+      "id": "100",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "africa",
+      "target": "dry-lands",
+      "id": "83",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "food-production",
+      "target": "sudan",
+      "id": "68",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "land-crisis",
+      "target": "mali",
+      "id": "69",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "destabilized-regions",
+      "target": "south-sudan",
+      "id": "56",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "north-africa",
+      "id": "102",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "food-production",
+      "target": "security",
+      "id": "66",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "mali",
+      "id": "60",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "pacific-islands",
+      "id": "127",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "climate-change",
+      "target": "land-crisis",
+      "id": "31",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "south-sudan",
+      "id": "49",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "destabilized-regions",
+      "target": "land-crisis",
+      "id": "53",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "mali",
+      "target": "sudan",
+      "id": "75",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "european-union",
+      "target": "poverty",
+      "id": "41",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "central-asia",
+      "target": "north-africa",
+      "id": "108",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "international-law",
+      "target": "vatican",
+      "id": "137",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "territory",
+      "id": "6",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "indigenous",
+      "id": "140",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "north-africa",
+      "id": "113",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "territory",
+      "id": "3",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "security",
+      "id": "61",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "cultural-identity",
+      "id": "124",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "middle-east",
+      "target": "refugees",
+      "id": "21",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "central-asia",
+      "id": "96",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "destabilized-regions",
+      "target": "food-production",
+      "id": "52",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "colonialism",
+      "target": "dr-martin-frick",
+      "id": "16",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "dry-lands",
+      "target": "middle-east",
+      "id": "116",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "dry-lands",
+      "id": "109",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "colonialism",
+      "target": "middle-east",
+      "id": "17",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "indigenous",
+      "id": "142",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "cultural-identity",
+      "target": "international-law",
+      "id": "130",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "food-production",
+      "id": "58",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "land",
+      "id": "141",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "land-crisis",
+      "target": "sudan",
+      "id": "72",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "climate-change",
+      "id": "22",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "food-production",
+      "target": "south-sudan",
+      "id": "67",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "poverty",
+      "id": "39",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "sudan",
+      "id": "63",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "south-sudan",
+      "id": "62",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "dr-martin-frick",
+      "id": "2",
+      "attributes": {
+        "Weight": "7.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 7
+    },
+    {
+      "source": "climate-change",
+      "target": "commodities",
+      "id": "28",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "africa",
+      "target": "colonialism",
+      "id": "8",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "cultural-identity",
+      "target": "pacific-islands",
+      "id": "131",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "land-crisis",
+      "id": "26",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 2
+    },
+    {
+      "source": "aral-lake",
+      "target": "dr-martin-frick",
+      "id": "90",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "cyberspace",
+      "id": "1",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "aral-lake",
+      "target": "global-warming",
+      "id": "93",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "aral-lake",
+      "target": "central-asia",
+      "id": "89",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "south-sudan",
+      "target": "sudan",
+      "id": "78",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "aral-lake",
+      "target": "bonn-germany",
+      "id": "88",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "security",
+      "id": "48",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "east-africa",
+      "target": "north-africa",
+      "id": "120",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "mali",
+      "target": "security",
+      "id": "73",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "pacific-islands",
+      "target": "vatican",
+      "id": "138",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "colonialism",
+      "target": "refugees",
+      "id": "18",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "security",
+      "target": "south-sudan",
+      "id": "76",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "land",
+      "id": "143",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "africa",
+      "target": "central-asia",
+      "id": "81",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "dry-lands",
+      "target": "global-warming",
+      "id": "115",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "security",
+      "target": "sudan",
+      "id": "77",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "central-asia",
+      "target": "east-africa",
+      "id": "105",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "global-warming",
+      "id": "111",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "poverty",
+      "id": "27",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "africa",
+      "target": "middle-east",
+      "id": "10",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 2
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "pacific-islands",
+      "id": "134",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "climate-change",
+      "target": "european-union",
+      "id": "30",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "refugees",
+      "id": "20",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "european-union",
+      "target": "land-crisis",
+      "id": "40",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "dry-lands",
+      "id": "98",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "vatican",
+      "id": "135",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "international-law",
+      "target": "pacific-islands",
+      "id": "136",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "africa",
+      "target": "north-africa",
+      "id": "87",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "food-production",
+      "target": "mali",
+      "id": "65",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "indigenous",
+      "target": "land",
+      "id": "144",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "east-africa",
+      "target": "global-warming",
+      "id": "118",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "aral-lake",
+      "target": "north-africa",
+      "id": "95",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "commodities",
+      "target": "dr-martin-frick",
+      "id": "33",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "land-crisis",
+      "target": "poverty",
+      "id": "42",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "aral-lake",
+      "target": "dry-lands",
+      "id": "91",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "africa",
+      "target": "east-africa",
+      "id": "84",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "middle-east",
+      "target": "north-africa",
+      "id": "123",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "africa",
+      "target": "refugees",
+      "id": "11",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "central-asia",
+      "target": "global-warming",
+      "id": "106",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "land-crisis",
+      "target": "south-sudan",
+      "id": "71",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "land-crisis",
+      "target": "security",
+      "id": "70",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "european-union",
+      "id": "37",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "dry-lands",
+      "target": "east-africa",
+      "id": "114",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "mali",
+      "id": "47",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "climate-change",
+      "target": "dr-martin-frick",
+      "id": "29",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "destabilized-regions",
+      "target": "sudan",
+      "id": "57",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "africa",
+      "target": "global-warming",
+      "id": "85",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "commodities",
+      "id": "23",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "central-asia",
+      "target": "dry-lands",
+      "id": "104",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "food-production",
+      "target": "land-crisis",
+      "id": "64",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "european-union",
+      "id": "25",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "commodities",
+      "target": "land-crisis",
+      "id": "35",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "cyberspace",
+      "target": "territory",
+      "id": "5",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "climate-change",
+      "target": "poverty",
+      "id": "32",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "commodities",
+      "target": "european-union",
+      "id": "34",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "global-warming",
+      "target": "middle-east",
+      "id": "121",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "aral-lake",
+      "target": "middle-east",
+      "id": "94",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "food-production",
+      "id": "45",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "destabilized-regions",
+      "target": "mali",
+      "id": "54",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "dr-martin-frick",
+      "target": "east-africa",
+      "id": "110",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "refugees",
+      "id": "15",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "africa",
+      "target": "aral-lake",
+      "id": "79",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "sudan",
+      "id": "50",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    }
+  ],
+  "nodes": [
+    {
+      "label": "Territory",
+      "x": -1185.9468994140625,
+      "y": -827.96044921875,
+      "id": "territory",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "7",
+        "In-Degree": "7"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 13.333333015441895
+    },
+    {
+      "label": "European Union",
+      "x": -768.4251098632812,
+      "y": 114.9334945678711,
+      "id": "european-union",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "6",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Cyberspace",
+      "x": -894.1500244140625,
+      "y": -350.5042724609375,
+      "id": "cyberspace",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "3",
+        "In-Degree": "1"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Refugees",
+      "x": -341.9644775390625,
+      "y": -96.81133270263672,
+      "id": "refugees",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "5",
+        "In-Degree": "5"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Middle East",
+      "x": -355.9964294433594,
+      "y": -23.65407943725586,
+      "id": "middle-east",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "2",
+        "Degree": "11",
+        "In-Degree": "9"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 20
+    },
+    {
+      "label": "Commodities",
+      "x": -729.4990844726562,
+      "y": 84.7525405883789,
+      "id": "commodities",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "6",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Colonialism",
+      "x": -45.75045394897461,
+      "y": 98.18417358398438,
+      "id": "colonialism",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "5",
+        "Degree": "7",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 13.333333015441895
+    },
+    {
+      "label": "Climate change",
+      "x": -560.1975708007812,
+      "y": 662.2373046875,
+      "id": "climate-change",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "24",
+        "Degree": "27",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 46.66666793823242
+    },
+    {
+      "label": "Bonn, Germany",
+      "x": -474.258056640625,
+      "y": -155.08958435058594,
+      "id": "bonn-germany",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "38",
+        "Degree": "40",
+        "In-Degree": "2"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 68.33333587646484
+    },
+    {
+      "label": "South Sudan",
+      "x": -963.8878173828125,
+      "y": -20.200742721557617,
+      "id": "south-sudan",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "1",
+        "Degree": "8",
+        "In-Degree": "7"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 15
+    },
+    {
+      "label": "International law",
+      "x": -1104.4046630859375,
+      "y": -1025.066650390625,
+      "id": "international-law",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "14",
+        "In-Degree": "10"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 25
+    },
+    {
+      "label": "Central Asia",
+      "x": -378.2597351074219,
+      "y": 97.07196044921875,
+      "id": "central-asia",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "6",
+        "Degree": "9",
+        "In-Degree": "3"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 16.666667938232422
+    },
+    {
+      "label": "North Africa",
+      "x": -283.62872314453125,
+      "y": 28.49744987487793,
+      "id": "north-africa",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "0",
+        "Degree": "9",
+        "In-Degree": "9"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 16.666667938232422
+    },
+    {
+      "label": "Pacific Islands",
+      "x": -831.6296997070312,
+      "y": -440.7601318359375,
+      "id": "pacific-islands",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "1",
+        "Degree": "5",
+        "In-Degree": "4"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 10
+    },
+    {
+      "label": "Food production",
+      "x": -920.52880859375,
+      "y": -56.473384857177734,
+      "id": "food-production",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "5",
+        "Degree": "8",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 15
+    },
+    {
+      "label": "Land crisis",
+      "x": -817.2465209960938,
+      "y": 16.459489822387695,
+      "id": "land-crisis",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "5",
+        "Degree": "12",
+        "In-Degree": "7"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 21.66666603088379
+    },
+    {
+      "label": "Africa",
+      "x": -283.2770080566406,
+      "y": -68.69465637207031,
+      "id": "africa",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "14",
+        "Degree": "14",
+        "In-Degree": "0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 25
+    },
+    {
+      "label": "Global warming",
+      "x": -256.621826171875,
+      "y": 173.5135040283203,
+      "id": "global-warming",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "6",
+        "Degree": "13",
+        "In-Degree": "7"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 23.333332061767578
+    },
+    {
+      "label": "Land",
+      "x": -939.2500610351562,
+      "y": -236.38558959960938,
+      "id": "land",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "3",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Indigenous",
+      "x": -913.3890380859375,
+      "y": -236.15895080566406,
+      "id": "indigenous",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "3",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Security",
+      "x": -907.5040283203125,
+      "y": -110.20195770263672,
+      "id": "security",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "8",
+        "In-Degree": "6"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 15
+    },
+    {
+      "label": "Dr. Martin Frick",
+      "x": -667.7868041992188,
+      "y": -92.24019622802734,
+      "id": "dr-martin-frick",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "20",
+        "Degree": "30",
+        "In-Degree": "10"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 51.66666793823242
+    },
+    {
+      "label": "Sudan",
+      "x": -968.0808715820312,
+      "y": -84.00521850585938,
+      "id": "sudan",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "0",
+        "Degree": "8",
+        "In-Degree": "8"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 15
+    },
+    {
+      "label": "Vatican",
+      "x": -812.286376953125,
+      "y": -402.6972351074219,
+      "id": "vatican",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "0",
+        "Degree": "5",
+        "In-Degree": "5"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 10
+    },
+    {
+      "label": "East Africa",
+      "x": -309.7540588378906,
+      "y": 88.39097595214844,
+      "id": "east-africa",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "3",
+        "Degree": "9",
+        "In-Degree": "6"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 16.666667938232422
+    },
+    {
+      "label": "Destabilized regions",
+      "x": -866.2769775390625,
+      "y": -64.3351821899414,
+      "id": "destabilized-regions",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "7",
+        "Degree": "8",
+        "In-Degree": "1"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 15
+    },
+    {
+      "label": "Aral Lake",
+      "x": -410.33154296875,
+      "y": 39.58271789550781,
+      "id": "aral-lake",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "8",
+        "Degree": "9",
+        "In-Degree": "1"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 16.666667938232422
+    },
+    {
+      "label": "Poverty",
+      "x": -723.9556274414062,
+      "y": 132.54832458496094,
+      "id": "poverty",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "6",
+        "In-Degree": "6"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Dry lands",
+      "x": -346.9171447753906,
+      "y": 41.40105056762695,
+      "id": "dry-lands",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "9",
+        "In-Degree": "5"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 16.666667938232422
+    },
+    {
+      "label": "Cultural identity",
+      "x": -789.9498291015625,
+      "y": -436.4687805175781,
+      "id": "cultural-identity",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "5",
+        "In-Degree": "1"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Mali",
+      "x": -903.9177856445312,
+      "y": -5.231234550476074,
+      "id": "mali",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "3",
+        "Degree": "8",
+        "In-Degree": "5"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 15
+    }
+  ]
+}

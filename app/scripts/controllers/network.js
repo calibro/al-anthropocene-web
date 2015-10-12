@@ -10,4 +10,5 @@
 angular.module('anthropoceneWebApp')
   .controller('NetworkCtrl', function ($scope, networkData) {
     $scope.netData = networkData;
+    $scope.nodeSelected = []
   });

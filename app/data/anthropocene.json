@@ -1,0 +1,630 @@
+{
+  "edges": [
+    {
+      "source": "mainz-germany",
+      "target": "no-borders",
+      "id": "266",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "earth-system",
+      "target": "stockholm-sweden",
+      "id": "532",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "sybil-seitzingerr",
+      "id": "519",
+      "attributes": {
+        "Weight": "3.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 3
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "public",
+      "id": "717",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "691",
+      "attributes": {
+        "Weight": "19.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 19
+    },
+    {
+      "source": "anthropocene",
+      "target": "public",
+      "id": "712",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "public",
+      "id": "715",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "earth-system",
+      "target": "sybil-seitzingerr",
+      "id": "533",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "mainz-germany",
+      "target": "veerabhadran-ramanathan-scripps-institutions-of-oceanography-university-of-california-at-san-diego-usa",
+      "id": "244",
+      "attributes": {
+        "Weight": "9.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 9
+    },
+    {
+      "source": "anthropocene",
+      "target": "individual-level",
+      "id": "734",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "igbp",
+      "id": "517",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "individual-level",
+      "id": "737",
+      "attributes": {
+        "Weight": "3.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 3
+    },
+    {
+      "source": "anthropocene",
+      "target": "earth-system",
+      "id": "529",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "critical-zone",
+      "id": "716",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "no-borders",
+      "target": "veerabhadran-ramanathan-scripps-institutions-of-oceanography-university-of-california-at-san-diego-usa",
+      "id": "268",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "stockholm-sweden",
+      "target": "sybil-seitzingerr",
+      "id": "522",
+      "attributes": {
+        "Weight": "8.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 8
+    },
+    {
+      "source": "anthropocene",
+      "target": "stockholm-sweden",
+      "id": "518",
+      "attributes": {
+        "Weight": "3.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 3
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "critical-zone",
+      "id": "714",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "individual-level",
+      "id": "736",
+      "attributes": {
+        "Weight": "3.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 3
+    },
+    {
+      "source": "china",
+      "target": "india",
+      "id": "259",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 2
+    },
+    {
+      "source": "network-theory",
+      "target": "stockholm-sweden",
+      "id": "553",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "no-borders",
+      "id": "257",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "critical-zone",
+      "id": "711",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "igbp",
+      "target": "sybil-seitzingerr",
+      "id": "521",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "anthropocene",
+      "target": "network-theory",
+      "id": "550",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "china",
+      "id": "254",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "network-theory",
+      "target": "sybil-seitzingerr",
+      "id": "554",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "710",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "china",
+      "target": "mainz-germany",
+      "id": "260",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "mainz-germany",
+      "id": "256",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "id": "709",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "china",
+      "target": "veerabhadran-ramanathan-scripps-institutions-of-oceanography-university-of-california-at-san-diego-usa",
+      "id": "262",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "critical-zone",
+      "target": "public",
+      "id": "718",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "china",
+      "target": "no-borders",
+      "id": "261",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "igbp",
+      "target": "stockholm-sweden",
+      "id": "520",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 2
+    },
+    {
+      "source": "india",
+      "target": "no-borders",
+      "id": "264",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "veerabhadran-ramanathan-scripps-institutions-of-oceanography-university-of-california-at-san-diego-usa",
+      "id": "258",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "india",
+      "target": "mainz-germany",
+      "id": "263",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "india",
+      "id": "255",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "india",
+      "target": "veerabhadran-ramanathan-scripps-institutions-of-oceanography-university-of-california-at-san-diego-usa",
+      "id": "265",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    }
+  ],
+  "nodes": [
+    {
+      "label": "Christiana Figueres, Executive Secretary of the United Nations Framework Convention on Climate Change",
+      "x": 553.8115234375,
+      "y": -455.15179443359375,
+      "id": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "51",
+        "Degree": "59",
+        "In-Degree": "8"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 100
+    },
+    {
+      "label": "Veerabhadran Ramanathan, Scripps Institutions of Oceanography, University of California at San Diego, Usa",
+      "x": 448.9053039550781,
+      "y": 1518.094970703125,
+      "id": "veerabhadran-ramanathan-scripps-institutions-of-oceanography-university-of-california-at-san-diego-usa",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "1",
+        "Degree": "26",
+        "In-Degree": "25"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 45
+    },
+    {
+      "label": "Critical zone",
+      "x": 336.4837341308594,
+      "y": -321.8811340332031,
+      "id": "critical-zone",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "4",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "China",
+      "x": 296.4798583984375,
+      "y": 703.819091796875,
+      "id": "china",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "7",
+        "Degree": "8",
+        "In-Degree": "1"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 15
+    },
+    {
+      "label": "IGBP",
+      "x": -241.38299560546875,
+      "y": -580.6318359375,
+      "id": "igbp",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "3",
+        "In-Degree": "1"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Stockholm, Sweden",
+      "x": -283.0770263671875,
+      "y": -598.3961181640625,
+      "id": "stockholm-sweden",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "1",
+        "Degree": "11",
+        "In-Degree": "10"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 20
+    },
+    {
+      "label": "Individual level",
+      "x": 713.3627319335938,
+      "y": -401.0321350097656,
+      "id": "individual-level",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "6",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "No borders",
+      "x": 259.6283264160156,
+      "y": 801.8860473632812,
+      "id": "no-borders",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "5",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "India",
+      "x": 53.68886184692383,
+      "y": 729.7740478515625,
+      "id": "india",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "7",
+        "Degree": "15",
+        "In-Degree": "8"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 26.66666603088379
+    },
+    {
+      "label": "Anthropocene",
+      "x": 77.05438232421875,
+      "y": -339.42291259765625,
+      "id": "anthropocene",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "15",
+        "Degree": "15",
+        "In-Degree": "0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 26.66666603088379
+    },
+    {
+      "label": "Earth system",
+      "x": -988.4522705078125,
+      "y": -1019.4017944335938,
+      "id": "earth-system",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "5",
+        "Degree": "8",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 15
+    },
+    {
+      "label": "Bruno Latour, sociologist, anthropologist and philosopher, SciencesPo University",
+      "x": 758.542236328125,
+      "y": -563.0992431640625,
+      "id": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "39",
+        "Degree": "44",
+        "In-Degree": "5"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 75
+    },
+    {
+      "label": "Sybil Seitzingerr",
+      "x": -237.2298583984375,
+      "y": -623.8612060546875,
+      "id": "sybil-seitzingerr",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "0",
+        "Degree": "11",
+        "In-Degree": "11"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 20
+    },
+    {
+      "label": "Mainz, Germany",
+      "x": 345.8509826660156,
+      "y": 1446.9134521484375,
+      "id": "mainz-germany",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "10",
+        "Degree": "26",
+        "In-Degree": "16"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 45
+    },
+    {
+      "label": "Network theory",
+      "x": -198.48333740234375,
+      "y": -579.9232177734375,
+      "id": "network-theory",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "3",
+        "In-Degree": "1"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Public",
+      "x": 366.2998352050781,
+      "y": -308.7725830078125,
+      "id": "public",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "4",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    }
+  ]
+}

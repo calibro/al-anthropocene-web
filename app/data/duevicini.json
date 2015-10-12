@@ -1,0 +1,5046 @@
+{
+  "links": [
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "negotiations",
+      "id": "872",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "group-climate",
+      "target": "negotiation-simulation",
+      "id": "704",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "industrialized-countries",
+      "id": "509",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "gaia",
+      "id": "798",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "industralized-countries",
+      "id": "813",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "planetary-solutions",
+      "id": "932",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "war",
+      "id": "873",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "future",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "906",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "anglocene",
+      "target": "responsability",
+      "id": "807",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "sense-of-immediacy",
+      "id": "789",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "historical-responsability",
+      "target": "reconciliation",
+      "id": "893",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "conflicts",
+      "target": "war",
+      "id": "868",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "united-nations",
+      "id": "698",
+      "attributes": {
+        "Weight": "4.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 4
+    },
+    {
+      "source": "disenfrachised",
+      "target": "google-maps",
+      "id": "767",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "negotiations",
+      "target": "war",
+      "id": "874",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "negotiations",
+      "id": "863",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "adaptation-committee",
+      "target": "individual-level",
+      "id": "746",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "gas-emission",
+      "target": "urbanization",
+      "id": "503",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "critical-zone",
+      "id": "716",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "critical-zone",
+      "id": "711",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "geographical-distance",
+      "target": "smart-data",
+      "id": "782",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "negotiation-simulation",
+      "target": "united-nations",
+      "id": "708",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "disenfrachised",
+      "id": "761",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "developing-countries",
+      "target": "reconciliation",
+      "id": "891",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "climate-change-laws",
+      "id": "506",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "developing-countries",
+      "target": "historical-responsability",
+      "id": "889",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "screen",
+      "id": "766",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "issue-based-negotiation",
+      "target": "united-nations",
+      "id": "707",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "cold-war",
+      "id": "794",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "postpone",
+      "id": "799",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "issue-based-negotiation",
+      "target": "negotiation-simulation",
+      "id": "706",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "geographical-distance",
+      "target": "visual-of-climate",
+      "id": "783",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "adaptation-committee",
+      "target": "smart-data",
+      "id": "747",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "climate-change-laws",
+      "id": "505",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "group-climate",
+      "id": "695",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "urbanization",
+      "id": "500",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "planetary-solutions",
+      "id": "928",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "nuremberg-solution",
+      "id": "910",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "conflicts",
+      "target": "diplomacy",
+      "id": "865",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "planetary-solutions",
+      "id": "935",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "diplomacy",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "869",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "public",
+      "id": "717",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "transition",
+      "id": "881",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "disenfrachised",
+      "target": "screen",
+      "id": "768",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "822",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "public",
+      "id": "712",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "cold-war",
+      "target": "human-war",
+      "id": "796",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "historical-responsability",
+      "id": "879",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "war",
+      "id": "859",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "calamity",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "831",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "785",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 2
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "nuremberg-solution",
+      "id": "898",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "screen",
+      "id": "763",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "individual-level",
+      "id": "737",
+      "attributes": {
+        "Weight": "3.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 3
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "industrialized-countries",
+      "id": "512",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "governance-boundaries",
+      "id": "729",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "pachamama",
+      "id": "828",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bangladesh",
+      "target": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "id": "770",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "historical-responsability",
+      "target": "transition",
+      "id": "883",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "google-maps",
+      "target": "screen",
+      "id": "769",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "future",
+      "target": "reconciliation",
+      "id": "908",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "statistics",
+      "id": "756",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "id": "818",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "calamity",
+      "target": "governance",
+      "id": "830",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "smart-data",
+      "target": "visual-of-climate",
+      "id": "784",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "governance",
+      "id": "826",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "conflicts",
+      "id": "860",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "710",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "global-level",
+      "id": "743",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "global-emissions",
+      "id": "493",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "negotiations",
+      "id": "858",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "population",
+      "id": "510",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "group-climate",
+      "target": "united-nations",
+      "id": "705",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "anglocene",
+      "target": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "id": "803",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "negotiation-simulation",
+      "id": "701",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "united-nations",
+      "id": "727",
+      "attributes": {
+        "Weight": "3.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 3
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "historical-responsability",
+      "id": "876",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "ipcc",
+      "id": "489",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "historical-responsability",
+      "target": "policy",
+      "id": "882",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "anglocene",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "804",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 1
+    },
+    {
+      "source": "anglocene",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "805",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 1
+    },
+    {
+      "source": "diplomacy",
+      "target": "war",
+      "id": "871",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "planetary-solutions",
+      "target": "responsability",
+      "id": "938",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "723",
+      "attributes": {
+        "Weight": "7.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 7
+    },
+    {
+      "source": "governance-boundaries",
+      "target": "social-contract",
+      "id": "731",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "negotiation-simulation",
+      "id": "697",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "united-nations",
+      "id": "702",
+      "attributes": {
+        "Weight": "4.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 4
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "transition",
+      "id": "878",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "simulation-of-copenhagen-meeting",
+      "id": "693",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "industralized-countries",
+      "id": "810",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "national-boundaries",
+      "target": "reconciliation",
+      "id": "894",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "illusory-space-and-time-distance",
+      "id": "788",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bangladesh",
+      "target": "smart-data",
+      "id": "773",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "next-simulation",
+      "id": "726",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "pachamama",
+      "id": "838",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "next-simulation",
+      "id": "724",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "google-maps",
+      "id": "762",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "gaia",
+      "id": "800",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "global-emissions",
+      "target": "ipcc",
+      "id": "497",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "temperature-increase",
+      "id": "490",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "ipcc",
+      "id": "487",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 2
+    },
+    {
+      "source": "bonn-germany",
+      "target": "gas-emission",
+      "id": "499",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "next-simulation",
+      "id": "721",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "critical-zone",
+      "target": "public",
+      "id": "718",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "governance",
+      "id": "833",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "developing-countries",
+      "target": "national-boundaries",
+      "id": "890",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "google-maps",
+      "id": "765",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "smart-data",
+      "id": "750",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "public",
+      "id": "715",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "smart-data",
+      "id": "752",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "calamity",
+      "id": "824",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "sense-of-immediacy",
+      "id": "787",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "conflicts",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "866",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "visual-of-climate",
+      "id": "778",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "human-war",
+      "id": "795",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "governance",
+      "target": "pachamama",
+      "id": "837",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "calamity",
+      "id": "819",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "future",
+      "target": "nuremberg-solution",
+      "id": "907",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "responsability",
+      "id": "814",
+      "attributes": {
+        "Weight": "4.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 4
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "individual-level",
+      "id": "736",
+      "attributes": {
+        "Weight": "3.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 3
+    },
+    {
+      "source": "nuremberg-solution",
+      "target": "responsability",
+      "id": "914",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "developing-countries",
+      "target": "industrialized-countries",
+      "id": "514",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "governance",
+      "id": "821",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "illusory-space-and-time-distance",
+      "target": "sense-of-immediacy",
+      "id": "790",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "temperature-increase",
+      "id": "488",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "global-emissions",
+      "id": "495",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "postpone",
+      "id": "801",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "691",
+      "attributes": {
+        "Weight": "19.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 19
+    },
+    {
+      "source": "bonn-germany",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "486",
+      "attributes": {
+        "Weight": "5.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 5
+    },
+    {
+      "source": "individual-level",
+      "target": "smart-data",
+      "id": "753",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "industralized-countries",
+      "id": "815",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "720",
+      "attributes": {
+        "Weight": "7.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 7
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "population",
+      "id": "513",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "group-climate",
+      "target": "issue-based-negotiation",
+      "id": "703",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "simulation-of-copenhagen-meeting",
+      "id": "692",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "responsability",
+      "target": "united-nations",
+      "id": "925",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 2
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "policy",
+      "id": "880",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "policy",
+      "target": "transition",
+      "id": "884",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "future",
+      "id": "901",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bangladesh",
+      "target": "geographical-distance",
+      "id": "772",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "industrialized-countries",
+      "target": "population",
+      "id": "516",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "conflicts",
+      "target": "negotiations",
+      "id": "867",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "adaptation-committee",
+      "target": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "id": "738",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "ipcc",
+      "target": "temperature-increase",
+      "id": "491",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "war",
+      "id": "864",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "calamity",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "829",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "adaptation-committee",
+      "target": "global-level",
+      "id": "740",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bonn-germany",
+      "target": "developing-countries",
+      "id": "508",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "human-war",
+      "id": "793",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "illusory-space-and-time-distance",
+      "id": "786",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "responsability",
+      "id": "816",
+      "attributes": {
+        "Weight": "4.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 4
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "critical-zone",
+      "id": "714",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "cold-war",
+      "id": "792",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "industralized-countries",
+      "target": "responsability",
+      "id": "817",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "issue-based-negotiation",
+      "id": "700",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "nuremberg-solution",
+      "id": "903",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "calamity",
+      "target": "pachamama",
+      "id": "832",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "individual-level",
+      "id": "734",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "disenfrachised",
+      "id": "764",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "pachamama",
+      "id": "835",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "geographical-distance",
+      "id": "776",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "id": "709",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "responsability",
+      "id": "811",
+      "attributes": {
+        "Weight": "4.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 4
+    },
+    {
+      "source": "nuremberg-solution",
+      "target": "reconciliation",
+      "id": "913",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "governance",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "836",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "reconciliation",
+      "id": "888",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "bolivia",
+      "target": "pachamama",
+      "id": "823",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "reconciliation",
+      "target": "responsability",
+      "id": "915",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "reconciliation",
+      "id": "899",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "anglocene",
+      "target": "industralized-countries",
+      "id": "806",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "diplomacy",
+      "target": "negotiations",
+      "id": "870",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "geographical-distance",
+      "id": "779",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "group-climate",
+      "id": "699",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "statistics",
+      "id": "758",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "adaptation-committee",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "739",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "issue-based-negotiation",
+      "id": "696",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "visual-of-climate",
+      "id": "781",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "historical-responsability",
+      "target": "national-boundaries",
+      "id": "892",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "future",
+      "target": "responsability",
+      "id": "909",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "gaia",
+      "target": "postpone",
+      "id": "802",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "global-level",
+      "id": "742",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "planetary-solutions",
+      "target": "united-nations",
+      "id": "939",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "developing-countries",
+      "id": "511",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "diplomacy",
+      "id": "856",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "conflicts",
+      "id": "855",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "diplomacy",
+      "id": "861",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "social-contract",
+      "id": "730",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "individual-level",
+      "target": "statistics",
+      "id": "759",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bangladesh",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "771",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "bangladesh",
+      "target": "visual-of-climate",
+      "id": "774",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "national-boundaries",
+      "id": "887",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "reconciliation",
+      "id": "911",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "developing-countries",
+      "target": "population",
+      "id": "515",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "policy",
+      "id": "877",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "gas-emission",
+      "id": "501",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "future",
+      "id": "896",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "urbanization",
+      "id": "502",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "next-simulation",
+      "target": "united-nations",
+      "id": "728",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "disenfrachised",
+      "id": "764",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "issue-based-negotiation",
+      "id": "700",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "issue-based-negotiation",
+      "id": "696",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "issue-based-negotiation",
+      "target": "united-nations",
+      "id": "707",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "cold-war",
+      "id": "794",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "google-maps",
+      "target": "screen",
+      "id": "769",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "transition",
+      "id": "878",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "negotiation-simulation",
+      "id": "701",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "planetary-solutions",
+      "target": "responsability",
+      "id": "938",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "next-simulation",
+      "id": "721",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "720",
+      "attributes": {
+        "Weight": "7.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 7
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "geographical-distance",
+      "id": "776",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "group-climate",
+      "target": "united-nations",
+      "id": "705",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "screen",
+      "id": "766",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "individual-level",
+      "id": "737",
+      "attributes": {
+        "Weight": "3.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 3
+    },
+    {
+      "source": "smart-data",
+      "target": "visual-of-climate",
+      "id": "784",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "global-level",
+      "id": "742",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "transition",
+      "id": "881",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "gaia",
+      "id": "800",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "diplomacy",
+      "id": "856",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "future",
+      "id": "901",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "reconciliation",
+      "id": "888",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "governance",
+      "id": "826",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bangladesh",
+      "target": "visual-of-climate",
+      "id": "774",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "adaptation-committee",
+      "target": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "id": "738",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "war",
+      "id": "873",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "next-simulation",
+      "id": "724",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "human-war",
+      "id": "793",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "conflicts",
+      "target": "war",
+      "id": "868",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "historical-responsability",
+      "target": "reconciliation",
+      "id": "893",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "future",
+      "target": "reconciliation",
+      "id": "908",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "united-nations",
+      "id": "727",
+      "attributes": {
+        "Weight": "3.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 3
+    },
+    {
+      "source": "planetary-solutions",
+      "target": "united-nations",
+      "id": "939",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "pachamama",
+      "id": "823",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "policy",
+      "id": "880",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "postpone",
+      "id": "799",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "issue-based-negotiation",
+      "target": "negotiation-simulation",
+      "id": "706",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "united-nations",
+      "id": "698",
+      "attributes": {
+        "Weight": "4.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 4
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "simulation-of-copenhagen-meeting",
+      "id": "692",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "critical-zone",
+      "id": "711",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "disenfrachised",
+      "target": "google-maps",
+      "id": "767",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "screen",
+      "id": "763",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "governance",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "836",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "group-climate",
+      "id": "695",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "disenfrachised",
+      "id": "761",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "negotiations",
+      "id": "858",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "responsability",
+      "target": "united-nations",
+      "id": "925",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 2
+    },
+    {
+      "source": "negotiation-simulation",
+      "target": "united-nations",
+      "id": "708",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "adaptation-committee",
+      "target": "individual-level",
+      "id": "746",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "calamity",
+      "id": "819",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "war",
+      "id": "859",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "id": "709",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "governance",
+      "target": "pachamama",
+      "id": "837",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "anglocene",
+      "target": "responsability",
+      "id": "807",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "id": "818",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "future",
+      "target": "nuremberg-solution",
+      "id": "907",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bangladesh",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "771",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "gaia",
+      "id": "798",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "conflicts",
+      "id": "855",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "governance",
+      "id": "833",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "policy",
+      "target": "transition",
+      "id": "884",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "785",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 2
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "negotiations",
+      "id": "863",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "responsability",
+      "id": "811",
+      "attributes": {
+        "Weight": "4.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 4
+    },
+    {
+      "source": "disenfrachised",
+      "target": "screen",
+      "id": "768",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "adaptation-committee",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "739",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "smart-data",
+      "id": "752",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "anthropocene",
+      "target": "individual-level",
+      "id": "734",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "calamity",
+      "id": "824",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "group-climate",
+      "target": "negotiation-simulation",
+      "id": "704",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "anglocene",
+      "target": "industralized-countries",
+      "id": "806",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "negotiation-simulation",
+      "id": "697",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "industralized-countries",
+      "target": "responsability",
+      "id": "817",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "historical-responsability",
+      "target": "transition",
+      "id": "883",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "conflicts",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "866",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "historical-responsability",
+      "target": "policy",
+      "id": "882",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "next-simulation",
+      "target": "united-nations",
+      "id": "728",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "adaptation-committee",
+      "target": "global-level",
+      "id": "740",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "responsability",
+      "id": "816",
+      "attributes": {
+        "Weight": "4.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 4
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "nuremberg-solution",
+      "id": "898",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "negotiations",
+      "id": "872",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "anglocene",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "804",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 1
+    },
+    {
+      "source": "nuremberg-solution",
+      "target": "responsability",
+      "id": "914",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "conflicts",
+      "target": "diplomacy",
+      "id": "865",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "822",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "global-level",
+      "id": "743",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "group-climate",
+      "target": "issue-based-negotiation",
+      "id": "703",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "future",
+      "id": "896",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "calamity",
+      "target": "governance",
+      "id": "830",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "pachamama",
+      "id": "835",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "cold-war",
+      "target": "human-war",
+      "id": "796",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bangladesh",
+      "target": "geographical-distance",
+      "id": "772",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "public",
+      "id": "712",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bangladesh",
+      "target": "smart-data",
+      "id": "773",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "cold-war",
+      "id": "792",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "next-simulation",
+      "id": "726",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "planetary-solutions",
+      "id": "932",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "diplomacy",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "869",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "conflicts",
+      "target": "negotiations",
+      "id": "867",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "calamity",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "831",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "critical-zone",
+      "id": "714",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "nuremberg-solution",
+      "target": "reconciliation",
+      "id": "913",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "reconciliation",
+      "id": "899",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "industralized-countries",
+      "id": "815",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "google-maps",
+      "id": "765",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "reconciliation",
+      "id": "911",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "diplomacy",
+      "target": "negotiations",
+      "id": "870",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "group-climate",
+      "id": "699",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "anglocene",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "805",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "pachamama",
+      "id": "828",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bolivia",
+      "target": "governance",
+      "id": "821",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,122,21)",
+      "size": 1
+    },
+    {
+      "source": "calamity",
+      "target": "pachamama",
+      "id": "832",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "pachamama",
+      "id": "838",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "statistics",
+      "id": "756",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "industralized-countries",
+      "id": "810",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "future",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "906",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "id": "723",
+      "attributes": {
+        "Weight": "7.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 7
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "google-maps",
+      "id": "762",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "planetary-solutions",
+      "id": "928",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "geographical-distance",
+      "target": "smart-data",
+      "id": "782",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "individual-level",
+      "target": "statistics",
+      "id": "759",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "public",
+      "id": "715",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "conflicts",
+      "id": "860",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "diplomacy",
+      "target": "war",
+      "id": "871",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "adaptation-committee",
+      "target": "smart-data",
+      "id": "747",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "diplomacy",
+      "id": "861",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "geographical-distance",
+      "target": "visual-of-climate",
+      "id": "783",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "future",
+      "target": "responsability",
+      "id": "909",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "historical-responsability",
+      "id": "876",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "691",
+      "attributes": {
+        "Weight": "19.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 19
+    },
+    {
+      "source": "negotiations",
+      "target": "war",
+      "id": "874",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "individual-level",
+      "id": "736",
+      "attributes": {
+        "Weight": "3.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 3
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "war",
+      "id": "864",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "visual-of-climate",
+      "id": "781",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "anglocene",
+      "target": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "id": "803",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "nuremberg-solution",
+      "id": "910",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "policy",
+      "id": "877",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "critical-zone",
+      "id": "716",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "calamity",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "829",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "smart-data",
+      "id": "750",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "industralized-countries",
+      "id": "813",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "individual-level",
+      "target": "smart-data",
+      "id": "753",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "target": "planetary-solutions",
+      "id": "935",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "historical-responsability",
+      "id": "879",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "responsability",
+      "id": "814",
+      "attributes": {
+        "Weight": "4.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 4
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "postpone",
+      "id": "801",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "anthropocene",
+      "target": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "id": "710",
+      "attributes": {
+        "Weight": "2.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 2
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "human-war",
+      "id": "795",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "united-nations",
+      "id": "702",
+      "attributes": {
+        "Weight": "4.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 4
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "statistics",
+      "id": "758",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "public",
+      "id": "717",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "reconciliation",
+      "target": "responsability",
+      "id": "915",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "geographical-distance",
+      "id": "779",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "nuremberg-solution",
+      "id": "903",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "target": "simulation-of-copenhagen-meeting",
+      "id": "693",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "target": "visual-of-climate",
+      "id": "778",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(122,21,122)",
+      "size": 1
+    },
+    {
+      "source": "bangladesh",
+      "target": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "id": "770",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(21,122,122)",
+      "size": 1
+    },
+    {
+      "source": "gaia",
+      "target": "postpone",
+      "id": "802",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    },
+    {
+      "source": "critical-zone",
+      "target": "public",
+      "id": "718",
+      "attributes": {
+        "Weight": "1.0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 1
+    }
+  ],
+  "nodes": [
+    {
+      "label": "Next simulation",
+      "x": 846.0614013671875,
+      "y": -686.2821655273438,
+      "id": "next-simulation",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "4",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Statistics",
+      "x": 752.9324951171875,
+      "y": -394.8717956542969,
+      "id": "statistics",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "3",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Future",
+      "x": 579.12939453125,
+      "y": -687.3447875976562,
+      "id": "future",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "6",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Pachamama",
+      "x": 983.3714599609375,
+      "y": -778.5364379882812,
+      "id": "pachamama",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "6",
+        "In-Degree": "6"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Bangladesh",
+      "x": -360.6044006347656,
+      "y": 762.3219604492188,
+      "id": "bangladesh",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "21",
+        "Degree": "21",
+        "In-Degree": "0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 36.66666793823242
+    },
+    {
+      "label": "Reconciliation",
+      "x": 501.23223876953125,
+      "y": -648.9722290039062,
+      "id": "reconciliation",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "9",
+        "In-Degree": "8"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 16.666667938232422
+    },
+    {
+      "label": "Negotiation simulation",
+      "x": 976.7616577148438,
+      "y": -540.608154296875,
+      "id": "negotiation-simulation",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "5",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Critical zone",
+      "x": 336.4837341308594,
+      "y": -321.8811340332031,
+      "id": "critical-zone",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "4",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Urbanization",
+      "x": -52.28819274902344,
+      "y": -360.2161560058594,
+      "id": "urbanization",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "3",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Population",
+      "x": 62.16017150878906,
+      "y": -40.82582092285156,
+      "id": "population",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "4",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Gaia",
+      "x": 828.1685180664062,
+      "y": -357.72027587890625,
+      "id": "gaia",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "3",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Bruno Latour, sociologist, anthropologist and philosopher, SciencesPo University",
+      "x": 758.542236328125,
+      "y": -563.0992431640625,
+      "id": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "39",
+        "Degree": "44",
+        "In-Degree": "5"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 75
+    },
+    {
+      "label": "Conflicts",
+      "x": 676.1008911132812,
+      "y": -941.4985961914062,
+      "id": "conflicts",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "6",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Illusory space and time distance",
+      "x": 1035.159423828125,
+      "y": -948.3231811523438,
+      "id": "illusory-space-and-time-distance",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "3",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Governance boundaries",
+      "x": 1048.5887451171875,
+      "y": -91.933837890625,
+      "id": "governance-boundaries",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "2",
+        "In-Degree": "1"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 5
+    },
+    {
+      "label": "Historical responsability",
+      "x": 349.19720458984375,
+      "y": -441.6917419433594,
+      "id": "historical-responsability",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "7",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 13.333333015441895
+    },
+    {
+      "label": "Calamity",
+      "x": 939.92724609375,
+      "y": -797.95849609375,
+      "id": "calamity",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "6",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Cold War",
+      "x": 978.9486083984375,
+      "y": -420.87628173828125,
+      "id": "cold-war",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "3",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Halldór Thorgeirsson, Director for Implementation Strategy, United Nations Framework Convention on Climate Change",
+      "x": 685.4411010742188,
+      "y": -751.8818359375,
+      "id": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "13",
+        "Degree": "24",
+        "In-Degree": "11"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 41.666664123535156
+    },
+    {
+      "label": "Visual of climate",
+      "x": 559.7930908203125,
+      "y": -182.5723876953125,
+      "id": "visual-of-climate",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "5",
+        "In-Degree": "5"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Anglocene",
+      "x": 777.7706909179688,
+      "y": -725.4705200195312,
+      "id": "anglocene",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "5",
+        "Degree": "5",
+        "In-Degree": "0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 10
+    },
+    {
+      "label": "Policy",
+      "x": 360.0046691894531,
+      "y": -515.1341552734375,
+      "id": "policy",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "4",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Developing countries",
+      "x": 200.1118927001953,
+      "y": -12.132351875305176,
+      "id": "developing-countries",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "8",
+        "Degree": "11",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 20
+    },
+    {
+      "label": "Transition",
+      "x": 353.472412109375,
+      "y": -485.64990234375,
+      "id": "transition",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "4",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "War",
+      "x": 681.187255859375,
+      "y": -990.7579956054688,
+      "id": "war",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "6",
+        "In-Degree": "6"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Christiana Figueres, Executive Secretary of the United Nations Framework Convention on Climate Change",
+      "x": 553.8115234375,
+      "y": -455.15179443359375,
+      "id": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "51",
+        "Degree": "59",
+        "In-Degree": "8"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 100
+    },
+    {
+      "label": "Industrialized countries",
+      "x": 87.10322570800781,
+      "y": -61.22356414794922,
+      "id": "industrialized-countries",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "4",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Simulation of Copenhagen meeting",
+      "x": 769.9637451171875,
+      "y": -426.4145202636719,
+      "id": "simulation-of-copenhagen-meeting",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "2",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 5
+    },
+    {
+      "label": "Climate change laws",
+      "x": -48.08454513549805,
+      "y": -472.7624206542969,
+      "id": "climate-change-laws",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "2",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 5
+    },
+    {
+      "label": "Issue-based negotiation",
+      "x": 1004.8819580078125,
+      "y": -514.3208618164062,
+      "id": "issue-based-negotiation",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "5",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Anthropocene",
+      "x": 77.05438232421875,
+      "y": -339.42291259765625,
+      "id": "anthropocene",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "15",
+        "Degree": "15",
+        "In-Degree": "0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 26.66666603088379
+    },
+    {
+      "label": "Human war",
+      "x": 957.043212890625,
+      "y": -408.0395812988281,
+      "id": "human-war",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "3",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Negotiations",
+      "x": 688.4338989257812,
+      "y": -1265.5126953125,
+      "id": "negotiations",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "3",
+        "Degree": "10",
+        "In-Degree": "7"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 18.333332061767578
+    },
+    {
+      "label": "IPCC",
+      "x": 888.4263916015625,
+      "y": 23.14661979675293,
+      "id": "ipcc",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "9",
+        "In-Degree": "7"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 16.666667938232422
+    },
+    {
+      "label": "Group Climate",
+      "x": 971.4365844726562,
+      "y": -495.922119140625,
+      "id": "group-climate",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "3",
+        "Degree": "5",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Responsability",
+      "x": 653.233642578125,
+      "y": -660.3191528320312,
+      "id": "responsability",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "10",
+        "In-Degree": "9"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 18.333332061767578
+    },
+    {
+      "label": "Social contract",
+      "x": 1034.0772705078125,
+      "y": -81.2117691040039,
+      "id": "social-contract",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "2",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 5
+    },
+    {
+      "label": "Governance",
+      "x": 1072.8013916015625,
+      "y": -782.1181030273438,
+      "id": "governance",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "8",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 15
+    },
+    {
+      "label": "Global level",
+      "x": 744.2645263671875,
+      "y": -342.0890197753906,
+      "id": "global-level",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "3",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Bonn, Germany",
+      "x": -474.258056640625,
+      "y": -155.08958435058594,
+      "id": "bonn-germany",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "38",
+        "Degree": "40",
+        "In-Degree": "2"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 68.33333587646484
+    },
+    {
+      "label": "Geographical distance",
+      "x": 525.4385986328125,
+      "y": -162.28738403320312,
+      "id": "geographical-distance",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "5",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Postpone",
+      "x": 812.5762329101562,
+      "y": -376.5162048339844,
+      "id": "postpone",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "3",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Disenfrachised",
+      "x": 428.7103271484375,
+      "y": -719.4217529296875,
+      "id": "disenfrachised",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "4",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Smart data",
+      "x": 615.5158081054688,
+      "y": -251.34619140625,
+      "id": "smart-data",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "7",
+        "In-Degree": "6"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 13.333333015441895
+    },
+    {
+      "label": "Google Maps",
+      "x": 453.34619140625,
+      "y": -700.286376953125,
+      "id": "google-maps",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "4",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Sense of immediacy",
+      "x": 1049.2034912109375,
+      "y": -927.8050537109375,
+      "id": "sense-of-immediacy",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "3",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Diplomacy",
+      "x": 721.0679321289062,
+      "y": -962.04248046875,
+      "id": "diplomacy",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "3",
+        "Degree": "6",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Screen",
+      "x": 459.6390686035156,
+      "y": -732.8866577148438,
+      "id": "screen",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "4",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Public",
+      "x": 366.2998352050781,
+      "y": -308.7725830078125,
+      "id": "public",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "4",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Temperature increase",
+      "x": 288.26983642578125,
+      "y": -146.44862365722656,
+      "id": "temperature-increase",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "3",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "National boundaries",
+      "x": 324.2913818359375,
+      "y": -390.01776123046875,
+      "id": "national-boundaries",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "4",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Bolivia",
+      "x": 984.460693359375,
+      "y": -844.7944946289062,
+      "id": "bolivia",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "8",
+        "Degree": "8",
+        "In-Degree": "0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 15
+    },
+    {
+      "label": "Nuremberg solution",
+      "x": 566.7647094726562,
+      "y": -729.1251831054688,
+      "id": "nuremberg-solution",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "6",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Industralized countries",
+      "x": 782.6068725585938,
+      "y": -763.212890625,
+      "id": "industralized-countries",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "5",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Planetary solutions",
+      "x": 884.4938354492188,
+      "y": -648.2998046875,
+      "id": "planetary-solutions",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "5",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Individual level",
+      "x": 713.3627319335938,
+      "y": -401.0321350097656,
+      "id": "individual-level",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "6",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Gas emission",
+      "x": -62.94355010986328,
+      "y": -337.1492919921875,
+      "id": "gas-emission",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "3",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Adaptation Committee",
+      "x": 710.5336303710938,
+      "y": -352.811767578125,
+      "id": "adaptation-committee",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "5",
+        "Degree": "5",
+        "In-Degree": "0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "United Nations",
+      "x": 905.693115234375,
+      "y": -522.1676635742188,
+      "id": "united-nations",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "13",
+        "In-Degree": "13"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 23.333332061767578
+    },
+    {
+      "label": "Global emissions",
+      "x": 364.9885559082031,
+      "y": -102.46005249023438,
+      "id": "global-emissions",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "3",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Future",
+      "x": 579.12939453125,
+      "y": -687.3447875976562,
+      "id": "future",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "6",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Human war",
+      "x": 957.043212890625,
+      "y": -408.0395812988281,
+      "id": "human-war",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "3",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Governance",
+      "x": 1072.8013916015625,
+      "y": -782.1181030273438,
+      "id": "governance",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "8",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 15
+    },
+    {
+      "label": "Transition",
+      "x": 353.472412109375,
+      "y": -485.64990234375,
+      "id": "transition",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "4",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Simulation of Copenhagen meeting",
+      "x": 769.9637451171875,
+      "y": -426.4145202636719,
+      "id": "simulation-of-copenhagen-meeting",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "2",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 5
+    },
+    {
+      "label": "Conflicts",
+      "x": 676.1008911132812,
+      "y": -941.4985961914062,
+      "id": "conflicts",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "6",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Gaia",
+      "x": 828.1685180664062,
+      "y": -357.72027587890625,
+      "id": "gaia",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "3",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Bruno Latour, sociologist, anthropologist and philosopher, SciencesPo University",
+      "x": 758.542236328125,
+      "y": -563.0992431640625,
+      "id": "bruno-latour-sociologist-anthropologist-and-philosopher-sciencespo-university",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "39",
+        "Degree": "44",
+        "In-Degree": "5"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 75
+    },
+    {
+      "label": "Screen",
+      "x": 459.6390686035156,
+      "y": -732.8866577148438,
+      "id": "screen",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "4",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Pachamama",
+      "x": 983.3714599609375,
+      "y": -778.5364379882812,
+      "id": "pachamama",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "6",
+        "In-Degree": "6"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Responsability",
+      "x": 653.233642578125,
+      "y": -660.3191528320312,
+      "id": "responsability",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "10",
+        "In-Degree": "9"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 18.333332061767578
+    },
+    {
+      "label": "United Nations",
+      "x": 905.693115234375,
+      "y": -522.1676635742188,
+      "id": "united-nations",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "13",
+        "In-Degree": "13"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 23.333332061767578
+    },
+    {
+      "label": "Statistics",
+      "x": 752.9324951171875,
+      "y": -394.8717956542969,
+      "id": "statistics",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "3",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Public",
+      "x": 366.2998352050781,
+      "y": -308.7725830078125,
+      "id": "public",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "4",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Cold War",
+      "x": 978.9486083984375,
+      "y": -420.87628173828125,
+      "id": "cold-war",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "3",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Bolivia",
+      "x": 984.460693359375,
+      "y": -844.7944946289062,
+      "id": "bolivia",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "8",
+        "Degree": "8",
+        "In-Degree": "0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 15
+    },
+    {
+      "label": "Calamity",
+      "x": 939.92724609375,
+      "y": -797.95849609375,
+      "id": "calamity",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "6",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Disenfrachised",
+      "x": 428.7103271484375,
+      "y": -719.4217529296875,
+      "id": "disenfrachised",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "4",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Google Maps",
+      "x": 453.34619140625,
+      "y": -700.286376953125,
+      "id": "google-maps",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "4",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Global level",
+      "x": 744.2645263671875,
+      "y": -342.0890197753906,
+      "id": "global-level",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "3",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Diplomacy",
+      "x": 721.0679321289062,
+      "y": -962.04248046875,
+      "id": "diplomacy",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "3",
+        "Degree": "6",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Reconciliation",
+      "x": 501.23223876953125,
+      "y": -648.9722290039062,
+      "id": "reconciliation",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "9",
+        "In-Degree": "8"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 16.666667938232422
+    },
+    {
+      "label": "Bangladesh",
+      "x": -360.6044006347656,
+      "y": 762.3219604492188,
+      "id": "bangladesh",
+      "attributes": {
+        "Category": "place",
+        "Out-Degree": "21",
+        "Degree": "21",
+        "In-Degree": "0"
+      },
+      "color": "rgb(21,224,21)",
+      "size": 36.66666793823242
+    },
+    {
+      "label": "Geographical distance",
+      "x": 525.4385986328125,
+      "y": -162.28738403320312,
+      "id": "geographical-distance",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "5",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Individual level",
+      "x": 713.3627319335938,
+      "y": -401.0321350097656,
+      "id": "individual-level",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "6",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Historical responsability",
+      "x": 349.19720458984375,
+      "y": -441.6917419433594,
+      "id": "historical-responsability",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "4",
+        "Degree": "7",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 13.333333015441895
+    },
+    {
+      "label": "Postpone",
+      "x": 812.5762329101562,
+      "y": -376.5162048339844,
+      "id": "postpone",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "3",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 6.666666507720947
+    },
+    {
+      "label": "Christiana Figueres, Executive Secretary of the United Nations Framework Convention on Climate Change",
+      "x": 553.8115234375,
+      "y": -455.15179443359375,
+      "id": "christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "51",
+        "Degree": "59",
+        "In-Degree": "8"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 100
+    },
+    {
+      "label": "Nuremberg solution",
+      "x": 566.7647094726562,
+      "y": -729.1251831054688,
+      "id": "nuremberg-solution",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "6",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Industralized countries",
+      "x": 782.6068725585938,
+      "y": -763.212890625,
+      "id": "industralized-countries",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "5",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Adaptation Committee",
+      "x": 710.5336303710938,
+      "y": -352.811767578125,
+      "id": "adaptation-committee",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "5",
+        "Degree": "5",
+        "In-Degree": "0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "War",
+      "x": 681.187255859375,
+      "y": -990.7579956054688,
+      "id": "war",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "6",
+        "In-Degree": "6"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 11.666666030883789
+    },
+    {
+      "label": "Negotiation simulation",
+      "x": 976.7616577148438,
+      "y": -540.608154296875,
+      "id": "negotiation-simulation",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "5",
+        "In-Degree": "4"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Anglocene",
+      "x": 777.7706909179688,
+      "y": -725.4705200195312,
+      "id": "anglocene",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "5",
+        "Degree": "5",
+        "In-Degree": "0"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 10
+    },
+    {
+      "label": "Smart data",
+      "x": 615.5158081054688,
+      "y": -251.34619140625,
+      "id": "smart-data",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "7",
+        "In-Degree": "6"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 13.333333015441895
+    },
+    {
+      "label": "Halldór Thorgeirsson, Director for Implementation Strategy, United Nations Framework Convention on Climate Change",
+      "x": 685.4411010742188,
+      "y": -751.8818359375,
+      "id": "halldor-thorgeirsson-director-for-implementation-strategy-united-nations-framework-convention-on-climate-change",
+      "attributes": {
+        "Category": "speaker",
+        "Out-Degree": "13",
+        "Degree": "24",
+        "In-Degree": "11"
+      },
+      "color": "rgb(21,21,224)",
+      "size": 41.666664123535156
+    },
+    {
+      "label": "Policy",
+      "x": 360.0046691894531,
+      "y": -515.1341552734375,
+      "id": "policy",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "4",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Planetary solutions",
+      "x": 884.4938354492188,
+      "y": -648.2998046875,
+      "id": "planetary-solutions",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "5",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Issue-based negotiation",
+      "x": 1004.8819580078125,
+      "y": -514.3208618164062,
+      "id": "issue-based-negotiation",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "2",
+        "Degree": "5",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Negotiations",
+      "x": 688.4338989257812,
+      "y": -1265.5126953125,
+      "id": "negotiations",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "3",
+        "Degree": "10",
+        "In-Degree": "7"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 18.333332061767578
+    },
+    {
+      "label": "Next simulation",
+      "x": 846.0614013671875,
+      "y": -686.2821655273438,
+      "id": "next-simulation",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "4",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    },
+    {
+      "label": "Visual of climate",
+      "x": 559.7930908203125,
+      "y": -182.5723876953125,
+      "id": "visual-of-climate",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "0",
+        "Degree": "5",
+        "In-Degree": "5"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Group Climate",
+      "x": 971.4365844726562,
+      "y": -495.922119140625,
+      "id": "group-climate",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "3",
+        "Degree": "5",
+        "In-Degree": "2"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 10
+    },
+    {
+      "label": "Anthropocene",
+      "x": 77.05438232421875,
+      "y": -339.42291259765625,
+      "id": "anthropocene",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "15",
+        "Degree": "15",
+        "In-Degree": "0"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 26.66666603088379
+    },
+    {
+      "label": "Critical zone",
+      "x": 336.4837341308594,
+      "y": -321.8811340332031,
+      "id": "critical-zone",
+      "attributes": {
+        "Category": "theme",
+        "Out-Degree": "1",
+        "Degree": "4",
+        "In-Degree": "3"
+      },
+      "color": "rgb(224,21,21)",
+      "size": 8.333333015441895
+    }
+  ]
+}
