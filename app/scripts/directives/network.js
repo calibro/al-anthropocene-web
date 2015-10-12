@@ -7,7 +7,7 @@
  * # network
  */
 angular.module('anthropoceneWebApp')
-  .directive('network', function () {
+  .directive('network', function (apiService) {
     return {
       restrict: 'A',
       link: function postLink(scope, element, attrs) {
@@ -19,20 +19,9 @@ angular.module('anthropoceneWebApp')
           .attr("width", width)
           .attr("height", height);
 
-        // var cross = textures.paths()
-        //             .d("crosses")
-        //             .stroke("white")
-        //             .thicker();
-        //
-        // var palliniradi = textures.circles()
-        //               .fill("white")
-        //               .thicker();
-        //
-        // svg.call(cross);
-        // svg.call(palliniradi);
-
         var lnksg = svg.append("g").attr("class","links");
         var ndsg = svg.append("g").attr("class","nodes");
+        var txtsg = svg.append("g").attr("class","txt");
 
         var mynodes = [];
         var mylinks = [];
@@ -47,7 +36,7 @@ angular.module('anthropoceneWebApp')
           .linkStrength(0.5)
           //.linkStrength(1)
           .charge(-2000)
-         //.chargeDistance(400)
+          .chargeDistance(2000)
           .size([width, height]);
 
 
@@ -86,7 +75,6 @@ angular.module('anthropoceneWebApp')
           var targetNode = findNode('id',targetId);
 
           if((sourceNode !== undefined) && (targetNode !== undefined)) {
-            //console.log({"source": sourceNode, "target": targetNode,"value":val})
             mylinks.push({"source": sourceNode, "target": targetNode,"value":val});
           }
         };
@@ -107,12 +95,6 @@ angular.module('anthropoceneWebApp')
 
   // draw the network
   function drawNetwork(data) {
-
-    //set scale domains
-    //------------------
-    // sizeScale.domain([0,d3.max(data.nodes,function(d){
-    //   return d.size
-    // })]);
 
     sizeScale.domain(d3.extent(data.nodes,function(d){
       return d.size
@@ -146,70 +128,81 @@ angular.module('anthropoceneWebApp')
         addLink(d.source,d.target, d.size);
     });
 
-    //console.log(data.links.length, force.links(), force.nodes())
-
-
-    //draw
-    //---------------
-
-
-    // var link = lnksg.selectAll(".link")
-    //   //.data(force.links(),function(d){return d.source.name + "-" + d.target.name;});
-    //   .data(force.links())
-    //
-    //
-    // link.enter().append("line")
-    //   .attr("class", "link")
-    //   .style("opacity",1)
-    //   .style("stroke","white")
-    //   //.style("stroke-width", function(d) { return Math.sqrt(d.weight); });
-    //   .style("stroke-width", 1);
-
-
-
-    //link.exit().transition().duration(400).style("opacity",0).remove();
-
-
     var node =ndsg.selectAll(".node")
       .data(force.nodes(), function(d){return d.id});
 
-    var txts =svg.selectAll(".txts")
+    var txts =txtsg.selectAll(".txts")
       .data(force.nodes(), function(d){return d.label});
 
     var nodeEnter = node.enter().append("circle")
       .attr("fill-opacity",0)
-      .attr("stroke-width", function(d){
-        if(d.attributes['Category'] == "theme"){
-          return 3
-        }else{
-          return 1
-        }
-      })
-      .attr("stroke",function(d){
-        if(d.attributes['Category'] == "speaker"){
-          return "none"
-        }else{
-          return "white"
-        }
-      })
+      .attr("stroke-width", 1)
+      .attr("stroke", "white")
       .attr("stroke-opacity", 0)
-      .attr("stroke-dasharray", function(d){
-        if(d.attributes['Category'] == "place"){
-          return "1, 3"
-        }else{
-          return null
-        }
-      })
-      .attr("fill", function(d){
-        if(d.attributes['Category'] == "place"){
-          return "none"
-        }else{
-          return "none"
-        }
-      })
+      .attr("fill", "black")
       .attr("class","node")
       .attr("r",function(d){
         return sizeScale(d.size)
+      })
+      .on("click", function(d){
+
+        var elm = d3.select(this);
+        apiService.getFile('data/bl.json').then(
+          function(data){
+            elm.transition().duration(2000)
+                .attrTween("cx", function(e) {
+                    var i = d3.interpolate(e.x, width/2);
+                    return function(t) {
+                      force.resume()
+                      if(t==1){
+                        e.fixed = true;
+                      }
+                      return e.x = i(t);
+                    };
+                })
+                .attrTween("cy", function(e) {
+                    var i = d3.interpolate(e.y, height/2);
+                    return function(t) {
+                      //force.resume()
+                      return e.y = i(t);
+                    };
+                })
+
+                //remove link
+                for(var t = force.nodes().length- 1; t>=0; t--) {
+                  var found = data.nodes.filter(function(d){return d.id === force.nodes()[t].id});
+                  if(found.length==0) {
+                    var id = force.nodes()[t].id;
+                    force.nodes()[t].size = sizeScale.domain()[0];
+                    var i = 0;
+                    while (i < force.links().length) {
+                      if ((force.links()[i]['source'].id == id)||(force.links()[i]['target'].id == id)) force.links().splice(i,1);
+                      else i++;
+                    }
+                    ndsg.selectAll(".node").filter(function(e){
+                      return e.id == id
+                    }).transition().duration(2000)
+                      .attr("r", 5)
+                      .attr("fill", "grey")
+                      .attr("fill-opacity", 0.5)
+                      .attr("stroke-opacity", 0)
+
+                  }
+                }
+
+                // ndsg.selectAll(".node").attr("r",function(d){
+                //   return sizeScale(d.size)
+                // })
+
+          },
+          function(error){
+            console.log("ciaooo")
+          }
+        )
+        //d.fixed = true;
+
+
+
       })
 
     var nodeText = txts.enter().append("text")
@@ -231,7 +224,7 @@ angular.module('anthropoceneWebApp')
     node
       .transition().duration(2000)
       .delay(function(d,i){
-        return i / d.size * 2000;
+        return i / force.nodes().length * 2000;
       })
       .attr("stroke-opacity", 1)
       .attr("fill-opacity",1);
@@ -239,19 +232,10 @@ angular.module('anthropoceneWebApp')
     txts.transition()
           .duration(4000)
           .delay(function(d,i){
-            return i / d.size * 4000;
+            return i / force.nodes().length * 4000;
           })
           .style("fill-opacity",1);
 
-      // .transition().duration(4000)
-      // .style("fill-opacity",0)
-      // .transition().duration(8000)
-      // .delay(function(d,i){
-      //   return i / d.size * 2000;
-      // })
-      // .style("fill-opacity",1)
-
-    //
     txts
       .each(function(d){
         var bb = this.getBBox();
@@ -269,52 +253,83 @@ angular.module('anthropoceneWebApp')
       .style("fill-opacity",0)
       .remove();
 
-    // txts.exit().transition().duration(400).style("fill-opacity",0).remove();
 
     force.start();
 
 
     force.on("tick", function() {
 
-    //  d3.selectAll("line").attr("x1", function(d) { return d.source.x; })
-    //    .attr("y1", function(d) { return d.source.y; })
-    //    .attr("x2", function(d) { return d.target.x; })
-    //    .attr("y2", function(d) { return d.target.y; });
-
       var q = d3.geom.quadtree(force.nodes()),
         i = 0,
         n = force.nodes().length;
 
-      while (++i < n) q.visit(collide(force.nodes()[i],d3.selectAll(".node")[0][i]));
+      while (++i < n) q.visit(collide(force.nodes()[i]));
 
-      d3.selectAll(".node")
-      .attr('cx', function(d) { d.x = Math.max(d.size*2, Math.min(width - d.size*2, d.x)); return d.x; })
-        .attr('cy', function(d) { d.y = Math.max(d.size*2, Math.min(height - d.size*2, d.y)); return d.y;});
+      // d3.selectAll(".node")
+      // .attr('cx', function(d) { d.x = Math.max(d.size*2, Math.min(width - d.size*2, d.x)); return d.x; })
+      //   .attr('cy', function(d) { d.y = Math.max(d.size*2, Math.min(height - d.size*2, d.y)); return d.y;})
+      //
+      //
+      // d3.selectAll(".txts")
+      //   .attr('x', function(d) { d.x = Math.max(d.size*2, Math.min(width - d.size*2, d.x)); return d.x; })
+      //   .attr('y', function(d) { d.y = Math.max(d.size*2, Math.min(height - d.size*2, d.y)); return d.y;});
 
-      d3.selectAll(".txts")//.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-        .attr('x', function(d) { d.x = Math.max(d.size*2, Math.min(width - d.size*2, d.x)); return d.x; })
-        .attr('y', function(d) { d.y = Math.max(d.size*2, Math.min(height - d.size*2, d.y)); return d.y;});
+        d3.selectAll(".node")
+        .attr('cx', function(d) {  return d.x; })
+          .attr('cy', function(d) {  return d.y;})
 
-      if (force.alpha()<0.01){
-        force.alpha(0.011)
-      }
 
+        d3.selectAll(".txts")
+          .attr('x', function(d) {  return d.x; })
+          .attr('y', function(d) {  return d.y;});
 
     });
 
+    force.on('end', function(d){
+      //force.alpha(0.0075)
+    })
 
-
-    //collision detection function
-    //----------------------------
   }
 
-          drawNetwork(scope.netData);
+  drawNetwork(scope.netData);
 
-  function collide(node,elem) {
+  function findEgoNetwork(searchNode, egoNetworkDegree, isDirected, searchType) {
+  var egoNetwork = {};
+  for (var x in force.nodes()) {
+    if (force.nodes()[x].id == searchNode || searchType == "aggregate") {
+    egoNetwork[force.nodes()[x].id] = [force.nodes()[x].id];
+    var z = 0;
+    while (z < egoNetworkDegree) {
+      var thisEgoRing = egoNetwork[force.nodes()[x].id].slice(0);
+    for (var y in force.links()) {
+        if (thisEgoRing.indexOf(force.links()[y].source.id) > -1 && thisEgoRing.indexOf(force.links()[y].target.id) == -1) {
+        egoNetwork[force.nodes()[x].id].push(force.links()[y].target.id)
+        }
+        else if (isDirected == false && thisEgoRing.indexOf(force.links()[y].source.id) == -1 && thisEgoRing.indexOf(force.links()[y].target.id) > -1) {
+        egoNetwork[force.nodes()[x].id].push(force.links()[y].source.id)
+        }
+    }
+    z++;
+    }
+    }
+  }
+  if (searchType == "aggregate") {
+    //if it's checking the entire network, pass back the entire object of arrays
+    console.log(egoNetwork)
+    return egoNetwork;
+  }
+  else {
+    //Otherwise only give back the array that corresponds with the search node
+    console.log(egoNetwork[searchNode])
+    return egoNetwork[searchNode];
+  }
+}
+
+  function collide(node) {
 
 
     // var r = sizeScale(node.value) +sizeScale.domain()[1] + 20,
-    var r = node.size + sizeScale.domain()[1] +10,
+    var r = node.size + sizeScale.domain()[0] +10,
       nx1 = node.x - r,
       nx2 = node.x + r,
       ny1 = node.y - r,
