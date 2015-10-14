@@ -59,32 +59,33 @@ angular.module('anthropoceneWebApp')
 
         var force = d3.layout.force()
           //.distance(100)
-          .gravity(0.2)
+          .gravity(0.3)
           .friction(0.5)
           .nodes(mynodes)
           .links(mylinks)
           .linkDistance(function(d){return lineScale(d.value)})
-          .linkStrength(0.4)
+          .linkStrength(1)
           //.linkStrength(1)
-          .charge(-2000)
-          //.chargeDistance(2000)
+          .charge(-2500)
+          .chargeDistance(2500)
           .size([width, height]);
 
 
         var sizeScale = d3.scale.log().range([5,50]);
+
         var lineScale = d3.scale.linear().range([70,10]);
-        var opacityScale = d3.scale.log().range([0.1,1]);
+        var opacityScale = d3.scale.log().range([0.3,1]);
 
         sizeScale.domain(d3.extent(scope.netData.nodes,function(d){
-          return d.size
+          return d.value
         }));
 
         lineScale.domain(d3.extent(scope.netData.links,function(d){
-          return d.size
+          return d.value
         }));
 
         opacityScale.domain(d3.extent(scope.netData.nodes,function(d){
-          return d.size
+          return d.value
         }));
 
         //add nodes to network data
@@ -100,39 +101,39 @@ angular.module('anthropoceneWebApp')
 
     //add links to data
     scope.netData.links.forEach(function(d){
-        addLink(d.source,d.target, d.size);
+        //addLink(d.source,d.target, d.value);
+        addLink(scope.netData.nodes[d.source],scope.netData.nodes[d.target], d.value);
     });
 
     var node =ndsg.selectAll(".node")
       .data(force.nodes(), function(d){return d.id});
 
     var txts =txtsg.selectAll(".txts")
-      .data(force.nodes(), function(d){return d.label});
+      .data(force.nodes(), function(d){return d.name});
 
     var nodeText = txts.enter().append("text")
       .attr("dx", 0)
       .attr("dy", ".35em")
       .attr("class","txts")
-      .attr("font-size", "14px")
+      .attr("font-size", "10px")
       .attr("text-anchor","middle")
       .attr("fill","white")
+      .attr("pointer-events","none")
       .attr("filter", "url(#outlineFilter)")
       .filter(function(d){
-        return d.size > 20
+        return d.value > 2
       })
       .text(function(d) {
-        return d.label.split(',')[0];
+        return d.name.split(',')[0];
       })
       .attr("fill-opacity",0);
 
       txts
         .each(function(d){
           var bb = this.getBBox();
-          if(bb.width/2 > sizeScale(d.size)) {
-            d.size = bb.width/2
-          }
-          else {
-            d.size = d.size;
+          if(bb.width/2 > d.value) {
+            d.bb = bb.width/2
+            //console.log(d.bb, sizeScale.domain()[1])
           }
         })
 
@@ -144,20 +145,22 @@ angular.module('anthropoceneWebApp')
       .attr("stroke-opacity", 0)
       .attr("class","node")
       .attr("r",function(d){
-        return sizeScale(d.size)
+        return sizeScale(d.value)
       })
       .on("click", function(d){
+
         var index = scope.nodeSelected.indexOf(d.id)
         if(index >-1){
           scope.nodeSelected.splice(index,1)
         }else{
-          scope.nodeSelected.push(d.id);
-          scope.nodeSelected.push('christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change');
+          if(scope.nodeSelected.length == 3){
+            console.warn("too many nodes selected!")
+             return;
+           }
+          else{scope.nodeSelected.push(d.id)}
+          //scope.nodeSelected.push('christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change');
         }
 
-        //scope.nodeSelected.push('dr-martin-frick');
-        //scope.nodeSelected.push('anthropocene');
-        //scope.nodeSelected.push('christiana-figueres-executive-secretary-of-the-united-nations-framework-convention-on-climate-change');
         if(!scope.$$phase) {
             scope.$apply()
           }
@@ -171,7 +174,7 @@ angular.module('anthropoceneWebApp')
         return i / force.nodes().length * 2000;
       })
       .attr("stroke-opacity", function(d){
-        return opacityScale(d.size)
+        return opacityScale(d.value)
       })
       .attr("fill-opacity",1);
 
@@ -192,7 +195,6 @@ angular.module('anthropoceneWebApp')
 
     force.start();
 
-
     force.on("tick", function() {
 
       var q = d3.geom.quadtree(force.nodes()),
@@ -203,13 +205,14 @@ angular.module('anthropoceneWebApp')
 
       if(!scope.nodeSelected.length){
       d3.selectAll(".node")
-      .attr('cx', function(d) { d.x = Math.max(d.size*2, Math.min(width - d.size*2, d.x)); return d.x; })
-        .attr('cy', function(d) { d.y = Math.max(d.size*2, Math.min(height - d.size*2, d.y)); return d.y;})
+      .attr('cx', function(d) { d.x = Math.max(sizeScale(d.value)*2, Math.min(width - sizeScale(d.value)*2, d.x)); return d.x; })
+        .attr('cy', function(d) { d.y = Math.max(sizeScale(d.value)*2, Math.min(height - sizeScale(d.value)*2, d.y)); return d.y;})
 
 
       d3.selectAll(".txts")
-        .attr('x', function(d) { d.x = Math.max(d.size*2, Math.min(width - d.size*2, d.x)); return d.x; })
-        .attr('y', function(d) { d.y = Math.max(d.size*2, Math.min(height - d.size*2, d.y)); return d.y;});
+        .attr('x', function(d) { d.x = Math.max(sizeScale(d.value)*2, Math.min(width - sizeScale(d.value)*2, d.x)); return d.x; })
+        .attr('y', function(d) { d.y = Math.max(sizeScale(d.value)*2, Math.min(height - sizeScale(d.value)*2, d.y)); return d.y;});
+
     }else{
         node
         .attr('cx', function(d) {  return d.x; })
@@ -223,6 +226,7 @@ angular.module('anthropoceneWebApp')
 
     force.on('end', function(d){
       force.alpha(0.0075)
+      //force.start()
     })
 
     scope.$watch('nodeSelected', function(newValue, oldValue) {
@@ -234,19 +238,8 @@ angular.module('anthropoceneWebApp')
 
     function updateNetwork(selected){
 
-      //if(selected.length){
-        var file
-        if(selected.length == 0){
-          file = 'data/test1.json'
-        }else if(selected.length>1){
-          file = 'data/duevicini.json'
-        }else{
-          file='data/bl.json'
-        };
-
-        apiService.getFile(file).then(
+        apiService.getNetwork({nodes:JSON.stringify(selected)}).then(
           function(data){
-
             node.each(function(d){
               if(scope.nodeSelected.indexOf(d.id)>-1){
                 d.fixed = true;
@@ -257,17 +250,23 @@ angular.module('anthropoceneWebApp')
             })
 
             data.links.forEach(function(d){
-              var st = d.source + "_" + d.target;
+              var st = data.nodes[d.source].id + "_" + data.nodes[d.target].id;
               var found = mylinks.filter(function(e,i){
 
                 var st2 = e.source.id + "_" + e.target.id;
-                return st == st2?true:false;
+                return st === st2?true:false;
               })
               if(found.length > 0){
+                //console.log("ci sono già")
               }else{
-                addLink(d.source, d.target, d.size)
+
+                var source = findNode('id',data.nodes[d.source].id)
+                var target = findNode('id',data.nodes[d.target].id)
+                addLink(source, target, d.value)
+
               }
             });
+
 
 
             var nodesMap = data.nodes.map(function(d){return d.id});
@@ -284,10 +283,14 @@ angular.module('anthropoceneWebApp')
             }
           }
 
-            node.filter(function(d) { return d.fixed; }).transition().duration(2000)
+
+            node.filter(function(d) { return d.fixed; }).transition().duration(2000).ease("elastic")
               .attr("fill", "white")
+              .attr("r",function(d){
+                return sizeScale(d.value)
+              })
               .attr("stroke-opacity", function(d){
-                return opacityScale(d.size)
+                return opacityScale(d.value)
               })
               .tween("x", function(d) {
                           var i = d3.interpolate(d.x, polesPosition[scope.nodeSelected.length-1][scope.nodeSelected.indexOf(d.id)].x);
@@ -305,27 +308,32 @@ angular.module('anthropoceneWebApp')
 
             node.filter(function(d) { return !d.fixed; }).transition().duration(2000)
                 .attr("fill", "black")
+                .attr("fill-opacity", 1)
                 .attr("stroke-opacity", function(d){
-                  return opacityScale(d.size)
+                  return opacityScale(d.value)
                 })
                 .attr("r",function(d){
-                  return sizeScale(d.size);
+                  return sizeScale(d.value);
                 })
                 .filter(function(d){
                   return nodesMap.indexOf(d.id)<0?true:false;
                 })
-                .attr("r",5)
-                .attr("fill", "gray")
+                .attr("r",1)
+                .attr("fill", "white")
+                .attr("fill-opacity", 1)
                 .attr("stroke-opacity", 0)
 
             txts.transition().duration(2000)
             .attr("fill-opacity", 1)
+            .text(function(d){
+              if(scope.nodeSelected.indexOf(d.id)>-1 || d.value > 2){
+                return d.name.split(',')[0]
+              }
+              })
             .filter(function(d){
               return nodesMap.indexOf(d.id)<0?true:false;
               })
             .attr("fill-opacity", 0)
-
-
 
           },
           function(error){
@@ -354,8 +362,8 @@ angular.module('anthropoceneWebApp')
     }
 
     function addLink(sourceId, targetId, val) {
-      var sourceNode = findNode('id',sourceId);
-      var targetNode = findNode('id',targetId);
+      var sourceNode = sourceId;
+      var targetNode = targetId;
 
       if((sourceNode !== undefined) && (targetNode !== undefined)) {
         mylinks.push({"source": sourceNode, "target": targetNode,"value":val});
@@ -410,8 +418,8 @@ angular.module('anthropoceneWebApp')
 
   function collide(node) {
 
-    //var r = sizeScale(node.size)+10,
-    var r = node.size + 9,
+    var r = node.bb?node.bb+15:sizeScale(node.value)+15,
+    //var r = node.value*2,
       nx1 = node.x - r,
       nx2 = node.x + r,
       ny1 = node.y - r,
@@ -421,7 +429,7 @@ angular.module('anthropoceneWebApp')
         var x = node.x - quad.point.x,
           y = node.y - quad.point.y,
           l = Math.sqrt(x * x + y * y),
-          r = node.size + quad.point.size + 9 ;
+          r = node.bb?node.bb+quad.point.bb+15:sizeScale(node.value)+sizeScale(quad.point.value)+15;
         if (l < r) {
           l = (l - r) / l * 0.5;
           node.x -= x *= l;

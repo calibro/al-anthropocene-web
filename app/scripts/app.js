@@ -32,7 +32,7 @@ angular
         controllerAs: 'network',
         resolve:{
           networkData: function(apiService){
-            return apiService.getFile('data/test1.json')
+            return apiService.getFile('data/final.json')
           }
         }
       })
@@ -44,4 +44,7 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
+  .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
+    cfpLoadingBarProvider.includeSpinner = false;
+  }]);
