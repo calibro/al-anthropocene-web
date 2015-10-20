@@ -17,6 +17,7 @@ angular
     'ngSanitize',
     'ngTouch',
     'btford.socket-io',
+    'com.2fdevs.videogular',
     'angular-loading-bar'
   ])
   .config(function ($routeProvider) {
@@ -47,4 +48,5 @@ angular
   })
   .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
     cfpLoadingBarProvider.includeSpinner = false;
-  }]);
+  }])
+  

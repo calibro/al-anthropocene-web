@@ -8,13 +8,33 @@
  * Factory in the anthropoceneWebApp.
  */
 angular.module('anthropoceneWebApp')
-  .factory('socket', function () {
+  .factory('socket', function (socketFactory) {
 
-    var myIoSocket = io.connect('http://localhost');
+    var myIoSocket = io.connect('http://127.0.0.1:3000');
 
-    mySocket = socketFactory({
+    var mySocket = socketFactory({
         ioSocket: myIoSocket
     });
 
     return mySocket;
+  });
+
+angular.module('anthropoceneWebApp').run(function(socket,$location,playlistService){
+    socket.on("guiView",function(data){
+        console.log("changed view to ",data);
+
+        /*if(data.view == "play") {
+        	$location.path("/player");
+        }*/
+        if(data.view == "create") {
+        	$location.path("/network");
+        }
+    })
+
+    socket.on("playlist",function(data){
+    	playlistService.setPlaylist(data);
+    	$location.path("/player");
+    	//
+    	//console.log(playlistService.getPlaylist());
+    })
   });
