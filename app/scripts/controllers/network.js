@@ -8,7 +8,11 @@
  * Controller of the anthropoceneWebApp
  */
 angular.module('anthropoceneWebApp')
-  .controller('NetworkCtrl', function ($scope, networkData) {
+  .controller('NetworkCtrl', function ($scope, networkData, socket) {
     $scope.netData = networkData;
-    $scope.nodeSelected = []
+    $scope.nodeSelected = [];
+
+    socket.on('entities', function(data){
+      $scope.nodeSelected = data.entities;
+    });
   });

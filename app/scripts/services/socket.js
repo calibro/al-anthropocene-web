@@ -8,11 +8,12 @@
  * Factory in the anthropoceneWebApp.
  */
 angular.module('anthropoceneWebApp')
-  .factory('socket', function () {
+  .factory('socket', function (socketFactory) {
 
-    var myIoSocket = io.connect('http://localhost');
+    var myIoSocket = io.connect('http://127.0.0.1:3000');
+    //var myIoSocket = io.connect('gessicas-iMac.local:3000');
 
-    mySocket = socketFactory({
+    var mySocket = socketFactory({
         ioSocket: myIoSocket
     });
 
