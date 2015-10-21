@@ -19,3 +19,23 @@ angular.module('anthropoceneWebApp')
 
     return mySocket;
   });
+
+angular.module('anthropoceneWebApp').run(function(socket,$location,playlistService){
+    socket.on("guiView",function(data){
+        console.log("changed view to ",data);
+
+        /*if(data.view == "play") {
+        	$location.path("/player");
+        }*/
+        if(data.view == "create") {
+        	$location.path("/network");
+        }
+    })
+
+    socket.on("playlist",function(data){
+    	playlistService.setPlaylist(data);
+    	$location.path("/player");
+    	//
+    	//console.log(playlistService.getPlaylist());
+    })
+  });
