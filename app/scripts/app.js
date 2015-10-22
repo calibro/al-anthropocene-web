@@ -33,7 +33,7 @@ angular
         controllerAs: 'network',
         resolve:{
           networkData: function(apiService){
-            return apiService.getFile('data/final.json')
+            return apiService.getNetwork()
           }
         }
       })
@@ -49,4 +49,3 @@ angular
   .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
     cfpLoadingBarProvider.includeSpinner = false;
   }])
-
