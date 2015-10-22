@@ -65,3 +65,53 @@ body {
 .fadeView.ng-leave-active {
     opacity: 0;
 }
+.player-title{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  min-height: 130px;
+  padding:20px;
+  font-size:2em;
+  z-index: 100;
+  opacity:1;
+  transition: all 1s ease-in-out;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 12%, rgba(255,255,255,0) 100%);
+}
+
+.player-title > div {
+  margin-bottom:15px;
+}
+
+
+.player-tags{
+  position: absolute;
+  top:20px;
+  right:20px;
+  text-align: right;
+  z-index:101;
+  opacity:1;
+  transition: all 1s ease-in-out;
+}
+
+.player-tags span{
+  padding: 3px 7px;
+  display: block;
+  background-color: white;
+  margin-bottom: 8px;
+  color: black;
+  text-align: right;
+  float: right;
+  clear: both;
+  width: -webkit-max-content;
+}
+.player-sub{
+  font-size:0.5em;
+  text-transform: none;
+}
+.title-hidden{
+  opacity:0;
+}
+.tags-overlay{
+  opacity:0.5;
+}
