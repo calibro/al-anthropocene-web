@@ -388,7 +388,7 @@ angular.module('anthropoceneWebApp')
               if(scope.nodeSelected.indexOf(d.id)>-1 || d.value > 4){
                 return d.name.split(',')[0]
               }
-              })
+              }).call(wrap, 120);
 
 
           },
