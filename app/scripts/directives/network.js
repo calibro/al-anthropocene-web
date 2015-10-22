@@ -151,7 +151,7 @@ angular.module('anthropoceneWebApp')
         .text(function(d) {
           return d.name.split(',')[0];
         })
-      .call(wrap, 100);
+      .call(wrap, 120);
 
 
       txts
@@ -376,13 +376,19 @@ angular.module('anthropoceneWebApp')
               })
             .attr("fill-opacity", 0)
 
-            d3.selectAll('singleTxts')
+            // d3.selectAll('singleTxts')
+            // .text(function(d){
+            //   if(scope.nodeSelected.indexOf(d.id)>-1 || d.value > 4){
+            //     return d.name.split(',')[0]
+            //   }
+            //   })
+
+            d3.selectAll('.singleTxts')
             .text(function(d){
               if(scope.nodeSelected.indexOf(d.id)>-1 || d.value > 4){
                 return d.name.split(',')[0]
               }
               })
-
 
 
           },
