@@ -15,6 +15,7 @@ angular.module('anthropoceneWebApp')
     $scope.controller.state = null;
     $scope.controller.API = null;
     $scope.controller.currentVideo = 0;
+    $scope.hide=false;
 
     $scope.chunks = playlistService.getPlaylist();
 
@@ -42,6 +43,7 @@ var timeIntvl = null;
 
       $scope.controller.setVideo = function(index, notify) {
 
+              $scope.hide = false;
               $scope.controller.currentVideo = index;
             	$scope.chunk = $scope.chunks[$scope.controller.currentVideo];
 
@@ -69,6 +71,10 @@ var timeIntvl = null;
       console.log($scope.controller.API.currentTime/1000, "timing after load");
 
       $timeout(function(){
+        $scope.hide = true;
+      },3000)
+
+      $timeout(function(){
         $scope.controller.checkTime();
       },100);
 
@@ -92,9 +98,13 @@ var timeIntvl = null;
 
     socket.on("playStatus",function(data){
       if(data=="pause") {
+        $scope.hide = false;
         $scope.controller.API.pause();
       }
       else if(data == "play") {
+        $timeout(function(){
+          $scope.hide = true;
+        },3000)
         $scope.controller.API.play();
       }
     })

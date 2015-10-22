@@ -1,8 +1,26 @@
- <videogular  vg-width="controller.config.width" vg-height="controller.config.height" vg-change-source="playVideo($source)" vg-auto-play="true" vg-player-ready="controller.onPlayerReady($API)" vg-complete="controller.onCompleteVideo()" vg-theme="controller.config.theme.url">
+
+<div ng-class="{'title-hidden':hide}" class="player-title">
+  <div ng-repeat="s in chunk.speakers">
+    <span >{{s.name.split(",")[0]}}</span>
+    <div class="player-sub">{{s.name.split(",",2)[1]}}</div>
+  </div>
+</div>
+
+
+
+<div ng-class="{'tags-overlay':hide}" class="player-tags">
+
+    <span ng-repeat="t in chunk.themes">{{t.name}}</span>
+
+</div>
+
+<videogular  vg-width="controller.config.width" vg-height="controller.config.height" vg-change-source="playVideo($source)" vg-auto-play="true" vg-player-ready="controller.onPlayerReady($API)" vg-complete="controller.onCompleteVideo()" vg-theme="controller.config.theme.url">
     <!--<div class="prev-shade">-->
     <vg-media vg-src="controller.config.sources">
     </vg-media>
 
     <!--<vg-overlay-play></vg-overlay-play>-->
+
+
 
 </videogular>
