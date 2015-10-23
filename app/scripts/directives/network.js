@@ -69,7 +69,7 @@ angular.module('anthropoceneWebApp')
           .chargeDistance(2500)
           .size([width, height]);
 
-        var sizeScale = d3.scale.log().range([5,50]);
+        var sizeScale = d3.scale.log().range([10,50]);
 
         var lineScale = d3.scale.linear().range([400,200]);
         var opacityScale = d3.scale.log().range([0.3,1]);
