@@ -92,7 +92,9 @@ var timeIntvl = null;
             }
             else{
               console.log("still under end");
+              socket.emit("playTime", $scope.controller.API.currentTime/1000)
             	$timeout($scope.controller.checkTime,500)
+
             }
         }
 
