@@ -83,15 +83,14 @@ var timeIntvl = null;
 
     $scope.controller.checkTime = function() {
 
-            console.log($scope.controller.API.currentTime/1000);
 
             if($scope.controller.API.currentTime/1000 >= $scope.chunk.end) {
-                console.log("bigger than end!!");
+
                 $scope.controller.API.stop();
                 $scope.controller.setVideo($scope.controller.currentVideo+1,true);
             }
             else{
-              console.log("still under end");
+              socket.emit("playTime",{"time":(($scope.controller.API.currentTime/1000-$scope.chunk.start)/$scope.chunk.duration)*100,"video":$scope.chunk.id});
             	$timeout($scope.controller.checkTime,500)
             }
         }
