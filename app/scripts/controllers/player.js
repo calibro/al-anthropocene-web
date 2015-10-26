@@ -87,14 +87,13 @@ var timeIntvl = null;
             if($scope.controller.API.currentTime/1000 >= $scope.chunk.end) {
 
                 $scope.controller.API.stop();
-                if($scope.controller.currentVideo < $scope.chunks.length-1) {
 
+              if($scope.controller.currentVideo < $scope.chunks.length-1) {
                   $scope.controller.setVideo($scope.controller.currentVideo + 1, true);
-
                 }
-
                 else {
-                  $timeout(socket.emit("changeView",{view:"create","reload":true}));
+                console.log("finished!");
+                  $timeout(socket.emit("backToCreate",{}));
                 }
 
             }
