@@ -177,6 +177,7 @@ angular.module('anthropoceneWebApp')
 
 
     node
+      .attr("fill-opacity",1)
       .transition().duration(2000)
       .delay(function(d,i){
         return i / force.nodes().length * 2000;
@@ -184,7 +185,7 @@ angular.module('anthropoceneWebApp')
       .attr("stroke-opacity", function(d){
         return opacityScale(d.value)
       })
-      .attr("fill-opacity",1);
+
 
     txts.transition()
           .duration(4000)
@@ -444,7 +445,19 @@ angular.module('anthropoceneWebApp')
           line.pop();
           tspan.text(line.join(' ')).attr('dy', '0em');
           line = [word];
-          tspan = text.append('tspan').attr('x', 0).attr('y', y).attr('dy', lineHeight + dy + 'em').text(word);
+          if(lineNumber<2){
+            tspan = text.append('tspan').attr('x', 0).attr('y', y).attr('dy', lineHeight + dy + 'em').text(word+'...');
+            ++lineNumber
+            return;
+          }else if(lineNumber==2){
+            tspan = text.append('tspan').attr('x', 0).attr('y', y).attr('dy', lineHeight + dy + 'em').text(word);
+            ++lineNumber
+            return;
+          }else{
+            return;
+          }
+          // tspan = text.append('tspan').attr('x', 0).attr('y', y).attr('dy', lineHeight + dy + 'em').text(word);
+          // ++lineNumber
         }
       }
     });
