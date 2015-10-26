@@ -9,10 +9,10 @@
  */
 angular.module('anthropoceneWebApp')
 .factory('mediaService', function ($q, $http) {
-    var baseurl = 'http://131.175.56.235/'
+    var baseurl = 'videos/';
     return {
         getVideoUrl : function(id) {
-            return baseurl + "antropovids/" + id + ".mp4";
+            return baseurl + id + ".mp4";
         },
         getThumbUrl : function(videoId, chunkId) {
             var thumburl = "antropovids/thumbs/output/";
