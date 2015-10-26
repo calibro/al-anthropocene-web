@@ -114,7 +114,7 @@ var timeIntvl = null;
       else if(data == "play") {
         $timeout(function(){
           $scope.hide = true;
-        },3000)
+        },5000)
         $scope.controller.API.play();
       }
     })
