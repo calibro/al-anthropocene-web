@@ -8,7 +8,7 @@
  * Controller of the anthropoceneWebApp
  */
 angular.module('anthropoceneWebApp')
-  .controller('PlayerCtrl', function ($scope,$sce,mediaService, playlistService,socket,$interval, $timeout) {
+  .controller('PlayerCtrl', function ($scope,$sce,mediaService, playlistService,socket,$interval, $timeout,$location) {
 
 
   	$scope.controller = this;
@@ -87,10 +87,19 @@ var timeIntvl = null;
             if($scope.controller.API.currentTime/1000 >= $scope.chunk.end) {
 
                 $scope.controller.API.stop();
-                $scope.controller.setVideo($scope.controller.currentVideo+1,true);
-            }
-            else{
+                if($scope.controller.currentVideo < $scope.chunks.length-1) {
 
+                  $scope.controller.setVideo($scope.controller.currentVideo + 1, true);
+
+                }
+
+                else {
+                  $timeout(socket.emit("changeView",{view:"create","reload":true}));
+                }
+
+            }
+            else if($location.path()=="/player"){
+              //emitting time status
               socket.emit("playTime",{"time":(($scope.controller.API.currentTime/1000-$scope.chunk.start)/$scope.chunk.duration)*100,"video":$scope.chunk.id});
 
             	$timeout($scope.controller.checkTime,500)
