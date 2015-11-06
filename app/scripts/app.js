@@ -18,9 +18,10 @@ angular
     'ngTouch',
     'btford.socket-io',
     'com.2fdevs.videogular',
-    'angular-loading-bar'
+    'angular-loading-bar',
+    'ngIdle'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, IdleProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/network.html',
@@ -40,6 +41,8 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+
+        IdleProvider.idle(300);
   })
   .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
     cfpLoadingBarProvider.includeSpinner = false;

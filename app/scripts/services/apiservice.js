@@ -10,7 +10,8 @@
 angular.module('anthropoceneWebApp')
   .factory('apiService', function ($q,$http) {
 
-    var baseUrl = 'http://dicto-ao.herokuapp.com/api/';
+    //var baseUrl = 'http://dicto-ao.herokuapp.com/api/';
+    var baseUrl = 'http://localhost:9000/api/';
 
     return {
 
