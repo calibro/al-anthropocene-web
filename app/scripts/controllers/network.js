@@ -8,9 +8,8 @@
  * Controller of the anthropoceneWebApp
  */
 angular.module('anthropoceneWebApp')
-  .controller('NetworkCtrl', function ($scope, networkData, socket,$window, Idle) {
-    
-    Idle.watch();
+  .controller('NetworkCtrl', function ($scope, networkData, socket,$window,$timeout) {
+
 
     $scope.netData = networkData;
     $scope.nodeSelected = [];
@@ -29,11 +28,10 @@ angular.module('anthropoceneWebApp')
       $window.location.reload();
     })
 
-    $scope.$on('IdleStart', function() {
-      //console.log("ciao")
-        socket.emit('resetCreate');// the user appears to have gone idle
-        Idle.watch();
-    });
+    $timeout(function(){
+      socket.emit('resetCreate')
+    }, 400000)
+
 
 
   });
